@@ -1,0 +1,75 @@
+body{
+    background: #F6F6F6;
+    color:#665874;
+}
+
+#management_navigation{
+    float:left;
+    margin-top:40px;
+}
+
+#management_navigation ul li{
+    list-style: none;
+}
+
+#management_navigation ul li a{
+    background:none repeat scroll 0 0 #665874;
+    color: #F6F6F6;
+    border:1px solid #C3C3C3;
+    display:block;
+    font-weight: bold;
+    width: 200px;
+    font: 15px Arial,Helvetica,sans-serif;
+    margin-bottom: 10px;
+    padding:8px 12px;
+    text-decoration:none;
+}
+
+#management_navigation ul li a:hover{
+    background-color: #9E8EAF;
+}
+
+div#management_border{
+     background:none repeat scroll 0 0 #ffffff;
+    border:1px solid #C3C3C3;
+    font-size:15px;
+    margin-bottom:40px;
+    margin-right:180px;
+    padding: 40px;
+    width:800px;
+    -moz-box-shadow:1px 1px 5px #CCCCCC, -1px -1px 5px #CCCCCC !important;
+    position: absolute;
+    margin-left: 210px;
+    position: absolute;
+    top: 10px;
+    
+}
+
+.text_field {
+    background:none repeat scroll 0 0 #F4F4F4;
+    border:1px solid #C3C3C3;
+    padding:10px 5px;
+    width:450px;
+    font-weight: bold;
+    font: 20px Arial,Helvetica,sans-serif;
+    text-align: center;
+    float: right;
+}
+
+.field_label{
+    font-weight:bold;
+    font: 18px Arial,Helvetica,sans-serif;
+    color: #307D99;
+}
+
+td.input_label{
+    width: 200px;
+}
+
+input#button{
+    font-size: large;
+    font-weight: bold;
+    color: #665874;
+    margin: 50px 0 0 0;
+    border:1px solid #C3C3C3;
+}
